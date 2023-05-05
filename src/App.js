@@ -1,10 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
-import Home from "./pages/home/home";
-import Profile from "./pages/profile/profile";
-import ShowQR from "./pages/showQR/showQR";
-import ShowProfile from "./pages/showprofile/showprofile";
+import { Home, Profile, ShowQR, ShowProfile } from "./pages";
 
 function App() {
   return (

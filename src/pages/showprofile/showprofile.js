@@ -5,24 +5,24 @@ const ShowProfile = () => {
   let storedUserProfile = localStorage.getItem("medical-form-data");
   storedUserProfile = JSON.parse(storedUserProfile);
 
-  // name: "",
-  // gender: "",
-  // dob: "",
-  // age: "",
-  // address: "",
-  // district: "",
-  // state: "",
-  // pincode: "",
-  // num1: "",
-  // num2: "",
-  // email: "",
-  // bloodgroup: "",
-  // disability: "",
-  // hasallergy: "",
-  // allergydetails: "",
-  // insurancecompany: "",
-  // insurancenumber: "",
-  // password: "",
+  // name
+  // gender
+  // dob
+  // age
+  // address
+  // district
+  // state
+  // pincode
+  // num1
+  // num2
+  // email
+  // bloodgroup
+  // disability
+  // hasallergy
+  // allergydetails
+  // insurancecompany
+  // insurancenumber
+  // password
 
   return (
     <>
