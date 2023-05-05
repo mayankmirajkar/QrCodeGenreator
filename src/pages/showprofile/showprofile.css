@@ -1,0 +1,54 @@
+body {
+    background-image: url(medical.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 50px 0;
+}
+
+.wrapper {
+    background-color: rgba(62, 97, 154, 0.7);
+    width: 1000px;
+    border-radius: 10px;
+}
+
+main {
+    margin: 60px 0;
+}
+
+.wrapper ul {
+    text-align: left;
+    margin: 0;
+    padding: 10px 16px;
+}
+
+.wrapper li {
+    font-size: 20px;
+}
+
+.wrapper h2 {
+    font-size: 30px;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+
+}
+
+#hospital {
+    position: relative;
+    left: 500px;
+}
